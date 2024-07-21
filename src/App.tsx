@@ -9,7 +9,7 @@ function App() {
       <div className="title text-center pb-4 pt-2">
         <h1 className="text-5xl">Smart Finance</h1>
         <h3 className="text-base font-medium -mt-3">
-          Stacked DataTable With Expandable Rows
+          Stacked DataTable Without Expandable Rows
         </h3>
       </div>
       <div className="table_wrapper p-3 bg-gray-300 overflow-x-auto">
