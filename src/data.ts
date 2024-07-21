@@ -1,0 +1,243 @@
+interface StudyData {
+  symbol: string;
+  name: string;
+  price: number;
+  change: number;
+  percent_change: number;
+  volume: number;
+  average_volume: number;
+  market_cap: number;
+  pe_ratio: number;
+  week_range: {
+    position: string;
+    lower: number;
+    upper: number;
+  };
+}
+
+export const studyTwoData: StudyData[] = [
+  {
+    symbol: "MU",
+    name: "Micron Technology, Inc.",
+    price: 135.07,
+    change: +0.25,
+    percent_change: +0.19,
+    volume: 12.841 * 1000000,
+    average_volume: 22.337 * 1000000,
+    market_cap: 149.523 * 1000000000,
+    pe_ratio: 0,
+    week_range: {
+      position: "ml-[50%]",
+      lower: 61.75,
+      upper: 157.54,
+    },
+  },
+  {
+    symbol: "C",
+    name: "Citigroup Inc.",
+    price: 59.14,
+    change: -2.29,
+    percent_change: -3.73,
+    volume: 14.083 * 1000000,
+    average_volume: 13.372 * 1000000,
+    market_cap: 111.305 * 1000000000,
+    pe_ratio: 17.28,
+    week_range: {
+      position: "ml-[82%]",
+      lower: 38.17,
+      upper: 67.81,
+    },
+  },
+  {
+    symbol: "ARM",
+    name: "Arm Holdings plc",
+    price: 143.92,
+    change: +4.01,
+    percent_change: +2.87,
+    volume: 11.185 * 1000000,
+    average_volume: 9.443 * 1000000,
+    market_cap: 151.905 * 1000000000,
+    pe_ratio: 499.9,
+    week_range: {
+      position: "ml-[70%]",
+      lower: 46.5,
+      upper: 188.75,
+    },
+  },
+  {
+    symbol: "TSM",
+    name: "Taiwan Semiconductor Manufacturing Company Limited",
+    price: 166.16,
+    change: -2,
+    percent_change: -1.19,
+    volume: 9.099 * 1000000,
+    average_volume: 14.088 * 1000000,
+    market_cap: 861.542 * 1000000000,
+    pe_ratio: 31.88,
+    week_range: {
+      position: "ml-[65%]",
+      lower: 84.02,
+      upper: 193.47,
+    },
+  },
+  {
+    symbol: "UBER",
+    name: "Uber Technologies, Inc.",
+    price: 69.24,
+    change: +0.64,
+    percent_change: +0.93,
+    volume: 8.826 * 1000000,
+    average_volume: 18.388 * 1000000,
+    market_cap: 144.553 * 1000000000,
+    pe_ratio: 109.81,
+    week_range: {
+      position: "ml-[55%]",
+      lower: 40.09,
+      upper: 82.14,
+    },
+  },
+  {
+    symbol: "CMCSA",
+    name: "Comcast Corporation",
+    price: 38.38,
+    change: -0.41,
+    percent_change: -1.04,
+    volume: 8.712 * 1000000,
+    average_volume: 20.642 * 1000000,
+    market_cap: 150.667 * 1000000000,
+    pe_ratio: 10.19,
+    week_range: {
+      position: "ml-[30%]",
+      lower: 36.43,
+      upper: 47.46,
+    },
+  },
+  {
+    symbol: "BABA",
+    name: "Alibaba Group Holding Limited",
+    price: 77.95,
+    change: -1.36,
+    percent_change: -1.71,
+    volume: 8.327 * 1000000,
+    average_volume: 16.387 * 1000000,
+    market_cap: 188.498 * 1000000000000,
+    pe_ratio: 17.72,
+    week_range: {
+      position: "ml-[25%]",
+      lower: 66.63,
+      upper: 102.5,
+    },
+  },
+  {
+    symbol: "CSCO",
+    name: "Cisco Systems, Inc.",
+    price: 45.89,
+    change: +0.03,
+    percent_change: +0.08,
+    volume: 8.266 * 1000000,
+    average_volume: 19.416 * 1000000,
+    market_cap: 184.882 * 1000000000,
+    pe_ratio: 15.5,
+    week_range: {
+      position: "ml-[18%]",
+      lower: 44.95,
+      upper: 58.19,
+    },
+  },
+  {
+    symbol: "MSFT",
+    name: "Microsoft Corporation",
+    price: 430.68,
+    change: +2.81,
+    percent_change: +0.66,
+    volume: 7.179 * 1000000,
+    average_volume: 19.599 * 1000000,
+    market_cap: 3.201 * 1000000000000,
+    pe_ratio: 37.26,
+    week_range: {
+      position: "ml-[75%]",
+      lower: 309.45,
+      upper: 468.35,
+    },
+  },
+  {
+    symbol: "GOOG",
+    name: "Alphabet Inc.",
+    price: 177.68,
+    change: +1.04,
+    percent_change: +0.59,
+    volume: 7.118 * 1000000,
+    average_volume: 20.4 * 1000000,
+    market_cap: 21.184 * 1000000000000,
+    pe_ratio: 27.25,
+    week_range: {
+      position: "ml-[78%]",
+      lower: 121.38,
+      upper: 193.31,
+    },
+  },
+  {
+    symbol: "WMT",
+    name: "Walmart Inc.",
+    price: 66.5,
+    change: -0.46,
+    percent_change: -0.68,
+    volume: 6.994 * 1000000,
+    average_volume: 16.382 * 1000000,
+    market_cap: 534.936 * 1000000000,
+    pe_ratio: 28.54,
+    week_range: {
+      position: "ml-[87%]",
+      lower: 49.85,
+      upper: 71.33,
+    },
+  },
+  {
+    symbol: "ORCL",
+    name: "Oracle Corporation",
+    price: 124.48,
+    change: -0.02,
+    percent_change: -0.02,
+    volume: 6.73 * 1000000,
+    average_volume: 8.07 * 1000000,
+    market_cap: 342.135 * 1000000000,
+    pe_ratio: 32.93,
+    week_range: {
+      position: "ml-[76%]",
+      lower: 99.26,
+      upper: 146.59,
+    },
+  },
+  {
+    symbol: "META",
+    name: "Meta Platforms, Inc.",
+    price: 504.16,
+    change: +0.56,
+    percent_change: +0.11,
+    volume: 9.985 * 1000000,
+    average_volume: 14.66 * 1000000,
+    market_cap: 1.279 * 1000000000000,
+    pe_ratio: 28.99,
+    week_range: {
+      position: "ml-[72%]",
+      lower: 274.38,
+      upper: 542.81,
+    },
+  },
+  {
+    symbol: "VZ",
+    name: "Verizon Communications Inc.",
+    price: 39.67,
+    change: -0.11,
+    percent_change: -0.28,
+    volume: 10.292 * 1000000,
+    average_volume: 17.051 * 1000000,
+    market_cap: 166.981 * 1000000000,
+    pe_ratio: 14.86,
+    week_range: {
+      position: "ml-[82%]",
+      lower: 30.14,
+      upper: 43.42,
+    },
+  },
+];
