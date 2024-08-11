@@ -120,7 +120,7 @@ export const studyTwoData: StudyData[] = [
     percent_change: -1.71,
     volume: 8.327 * 1000000,
     average_volume: 16.387 * 1000000,
-    market_cap: 188.498 * 1000000000000,
+    market_cap: 188.498 * 1000000000,
     pe_ratio: 17.72,
     week_range: {
       position: "ml-[25%]",
